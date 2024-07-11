@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/pexels-photo55.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.sys{
+    width: 70%;
+    height: 200px;
+}
+.re{
+    font-size: 15px;
+}
+@media screen and (max-width: 800px){
+    .sys{
+        width: 90%;
+    }
+    body{
+        background-image: url('images/pexels-photo55.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
